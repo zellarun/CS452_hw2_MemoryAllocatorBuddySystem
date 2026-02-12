@@ -56,7 +56,7 @@ extern size_t e2size(int e){
 extern int size2e(size_t size){
     int e = 0;
     size_t s = s;
-    while(2^e < size){
+    while((2^e) < size){
         s <<= 1;
         e++;
     }
